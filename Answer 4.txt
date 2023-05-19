@@ -1,0 +1,18 @@
+File system module:
+ File system module in Node.js is used for managing files.
+So create a text file in Node js folder , name the text file with"Testfile.txt".
+for using file system module in Node js we need to import it using the below code.
+var http = require('http');
+var fs = require('fs');
+
+http.createServer((req,res)=>
+{
+    fs.readFile('Testfile.txt',(err,data)=>
+    {
+        res.write(data);
+        res.end();
+        console.log('File system module is reading the content of file');
+    })
+
+}).listen(8080);
+

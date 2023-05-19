@@ -1,0 +1,1 @@
+Node.js is a very popular scripting language that is primarily used for server-side scripting requirements. It is an open source and cross-platform JavaScripts runtime environment and library to run web application outside the client's browser.it is used  to create server-side web application.

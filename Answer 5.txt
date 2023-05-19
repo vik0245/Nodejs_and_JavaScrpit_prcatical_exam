@@ -1,0 +1,9 @@
+deleting the existing file using the File
+System module.-
+const fs = require ('fs');
+fs.unlink(DirectoryPath + filename, (err) => {
+    if (err) {
+        throw err;
+    }
+    console.log("Delete File Successfully.");
+});

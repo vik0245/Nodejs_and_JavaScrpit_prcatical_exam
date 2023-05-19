@@ -1,0 +1,5 @@
+1- First create a Folder with name "nodejs" in any of the locations you wish.
+2- Then open the folder on Visual studio for practical and coding. all the node js module.
+3- And create a file name "data.json" using this file we are going perform differnet kind of opertaions.
+4- In the same folder node.js, create another file called "server.js" using the file we can create a server.
+5- For creating a server, we are using and http.createServer() and then need to run our server port 8080. 
